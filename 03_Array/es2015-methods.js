@@ -78,3 +78,18 @@ console.log(copyArray);
 
 
 console.log('methods find and findIndex');
+
+function multipleOf13(element, index, array) {
+  return (element % 13 == 0);
+}
+
+console.log('numbers.find(multipleOf13)', numbers.find(multipleOf13));
+console.log('numbers.findIndex(multipleOf13)', numbers.findIndex(multipleOf13));
+
+console.log('EcmaScript 2016 (ES7): using the method includes');
+
+console.log('numbers.includes(15)', numbers.includes(15));
+console.log('numbers.includes(20)', numbers.includes(20));
+
+const numbers5 = [7, 6, 5, 4, 3, 2, 1];
+console.log('numbers5.includes(4, 5)', numbers5.includes(4, 5));

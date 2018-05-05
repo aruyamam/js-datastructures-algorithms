@@ -20,3 +20,46 @@ function compare(a, b) {
 }
 
 console.log('numbers.sort(compare)', numbers.sort(compare));
+
+const friends = [
+  { name: 'John', age: 30 },
+  { name: 'Ana', age: 20 },
+  { name: 'Chris', age: 25 },
+];
+
+function comparePerson(a, b) {
+  if (a.age < b.age) {
+    return -1;
+  }
+  if (a.age > b.age) {
+    return 1;
+  }
+  return 0;
+}
+
+console.log('friends.sort(comparePerson)', friends.sort(comparePerson));
+
+let names = ['Ana', 'ana', 'john', 'John'];
+console.log('names', names);
+console.log('names.sort()', names.sort());
+
+names = ['Ana', 'ana', 'john', 'John'];
+console.log(
+  'names.sort(compareFunction)',
+  names.sort((a, b) => {
+    if (a.toLowerCase() < b.toLowerCase()) {
+      return -1;
+    }
+    if (a.toLowerCase() > b.toLowerCase()) {
+      return 1;
+    }
+    return 0;
+  })
+);
+
+names = ['Ana', 'ana', 'john', 'John'];
+console.log('names.sort((a, b) => a.localeCaompare(b))', names.sort((a, b) => a.localeCompare(b)));
+
+const names2 = ['Maève', 'Maeve'];
+console.log('names2', names);
+console.log('names2.sort((a, b) => a.localeCompare(b))', names2.sort((a, b) => a.localeCompare(b)));
