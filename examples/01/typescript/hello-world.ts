@@ -18,8 +18,8 @@ interface Comparable<T> {
 
 class MyObject implements Comparable<MyObject> {
    age: number;
-   
-   compareTo(b): number {
+
+   compareTo(b:): number {
       if (this.age == b.age) {
          return 0;
       }

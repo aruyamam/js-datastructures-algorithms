@@ -51,7 +51,7 @@ export default class Stack {
     for (let i = 1; i < this.count; i++) {
       objString = `${objString},${this.items[i]}`;
     }
-    
+
     return objString;
   }
 }
