@@ -14,7 +14,6 @@
   },
   "homepage": "https://github.com/loiane/javascript-datastructures-algorithms",
   "scripts": {
-    "webpack": "webpack --env build",
     "serve": "webpack-dev-server --open"
   },
   "devDependencies": {
