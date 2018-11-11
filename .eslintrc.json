@@ -16,7 +16,8 @@
       "brace-style": [
          "error",
          "stroustrup"
-      ]
+      ],
+      "no-plusplus": "off"
    },
    "parser": "babel-eslint",
    "extends": "airbnb-base"
