@@ -5,6 +5,19 @@
       "es6": true,
       "node": true
    },
+   "rules": {
+      "indent": [
+         "error",
+         3,
+         {
+            "SwitchCase": 1
+         }
+      ],
+      "brace-style": [
+         "error",
+         "stroustrup"
+      ]
+   },
    "parser": "babel-eslint",
    "extends": "airbnb-base"
 }
