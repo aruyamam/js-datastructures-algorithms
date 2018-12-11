@@ -15,5 +15,8 @@ export { default as LinkedList } from './data-structures/linked-list';
 // chapter 07
 export { default as Set } from './data-structures/set';
 
+// chapter 08
+export { default as Dictionary } from './data-structures/dictionary';
+
 // chapter 09
 export { fibonacci, fibonacciMemoization } from './others/fibonacci';
