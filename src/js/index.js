@@ -17,6 +17,11 @@ export { default as Set } from './data-structures/set';
 
 // chapter 08
 export { default as Dictionary } from './data-structures/dictionary';
+export { default as HashTable } from './data-structures/hash-table';
+export {
+   default as HashTableSeparateChaining,
+} from './data-structures/hash-table-separate-chaining';
+export { default as HashTableLinearProbing } from './data-structures/hash-table-linear-probing';
 
 // chapter 09
 export { fibonacci, fibonacciMemoization } from './others/fibonacci';

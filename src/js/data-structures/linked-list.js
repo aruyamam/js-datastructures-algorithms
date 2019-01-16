@@ -11,7 +11,7 @@ export default class LinkedList {
    push(element) {
       const node = new Node(element);
       let current;
-      if (this.haed == null) {
+      if (this.head == null) {
          this.head = node;
       }
       else {

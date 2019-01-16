@@ -14,7 +14,7 @@
   },
   "homepage": "https://github.com/loiane/javascript-datastructures-algorithms",
   "scripts": {
-    "serve": "webpack-dev-server"
+    "serve": "webpack && webpack-dev-server"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
